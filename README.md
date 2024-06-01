@@ -89,7 +89,7 @@ Que vous utilisiez Conda ou non, suivez ces instructions pour installer les pack
     # Vérification des versions
     print(f"Pandas version: {pd.__version__}")
     print(f"NumPy version: {np.__version__}")
-    print(f"Matplotlib version: {plt.__version__}")
+    print(f"Matplotlib version: {plt.matplotlib.__version__}")
     print(f"Scikit-learn version: {sklearn.__version__}")
 
     # Test de l'affichage graphique
